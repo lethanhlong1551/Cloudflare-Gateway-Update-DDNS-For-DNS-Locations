@@ -2,7 +2,7 @@ name: Update DDNS
 
 on:
   schedule:
-    */1 * * * *
+    - cron: "*/1 * * * *"
   workflow_dispatch:
 
 jobs:
